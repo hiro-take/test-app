@@ -64,6 +64,7 @@ gem "haml-rails", ">= 1.0", '<= 2.0.1'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'devise'
+gem 'fog-aws'
 
   group :production do
   gem 'unicorn', '5.4.1'
