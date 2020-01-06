@@ -1,5 +1,5 @@
 require_relative 'boot'
-
+require 'devise'
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module TestApp
   class Application < Rails::Application
     config.time_zone = 'Tokyo'
-    
+
     config.generators do |g|
       g.stylesheets false
       g.javascripts false
